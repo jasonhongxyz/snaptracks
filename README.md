@@ -1,7 +1,5 @@
 # Snaptracks - Image-Based Music Recommendations
 
-## CS411 - Team 3
-
 ## Names
 - Jason Hong (jason810@bu.edu)
 - Justin Taylor (jdtaylor@bu.edu)
@@ -10,7 +8,7 @@
 - Jiho Seo (jihoseo@bu.edu)
 
 ## Summary
-Our project allows users to upload a photo (landscape, person, selfie, etc), and gives music recommendations based off of that photo. It aims to provide a fast, simple interface to quickly get a few song ideas that would fit the mood. In terms of the high-level features, we have implemented a SQLite database, 3rd party Google OAuth, and the Google Vision and Spotify API's. Our project also takes advantage of image caching, and by saving the MD5 Hash of the image files to the database, we prevent duplicate requests from slowing down the system.
+Snaptracks allows users to upload a photo (landscape, person, selfie, etc), and gives music recommendations based off of that photo. It aims to provide a fast, simple interface to quickly get a few song ideas that would fit the mood. In terms of the high-level features, photo data is stored in a SQLite database, 3rd party Google OAuth, and the Google Vision and Spotify API's. Snaptracks takes advantage of image caching, and by saving the MD5 Hash of the image files to the database, it prevents duplicate requests from slowing down the system.
 
 ### Usage
 
